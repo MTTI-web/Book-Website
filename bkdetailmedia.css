@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1085px) {
+    .txt-details {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .book-img-div {
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #back {
+        text-align: center;
+        width: 20%;
+        margin-left: 40%;
+    }
+    .book-img-div {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .book-img-div img {
+        width: 100%;
+        height: auto;
+    }
+    .feedback textarea {
+        width: 80%;
+        height: 40%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #logo {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+    }
+    #header-title-div {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .feedback textarea {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .social {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .social-icon-link {
+        float: none;
+    }
+    #fb {
+        margin: 0;
+    }
+    #ig {
+        margin: 0;
+    }
+    .social ul {
+        height: auto;
+    }
+}

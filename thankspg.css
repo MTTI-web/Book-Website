@@ -1,0 +1,23 @@
+html {
+    background-color: aqua;
+    font-family: 'Oxygen', 'Calibri', 'Arial';
+    text-align: center;
+    font-weight: 700;
+}
+
+.txt {
+    margin: 30px;
+    font-size: 25px;
+}
+
+.logim {
+    margin:0px;
+}
+
+.logim img {
+    padding: 20px;
+}
+
+.link {
+    color="green";
+}

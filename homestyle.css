@@ -1,0 +1,374 @@
+/* ======== ALL PAGE ======== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    padding-right: -50px;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oxygen', 'Calibri', 'Arial';
+    font-size: 20px;
+}
+
+/* ========================== */
+
+/* ======== REUSABLE COMPONENTS ======== */
+
+section h2 {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    color: #d98243;
+    font-size: 200%;
+    text-align: center;
+}
+
+section p {
+    color: #555;
+    font-size: 90%;
+    text-align: justify;
+}
+
+section {
+    padding-top: 60px;
+}
+
+/* ========================== */
+
+
+/* ======== HEADER ======== */
+
+/* Navigation */
+
+.logo-nav {
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    color: #d98243;
+    transition: border 0.4s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 2px solid #d98243;
+}
+
+/* ---------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.91)), url(Book%20Clipart.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    position: relative;
+ }
+
+.logoimg {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.logoimg img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 700;
+    text-align: center;
+    color: #935324;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.welcome-text {
+    margin-bottom: 20px;
+    color: #f89146;
+}
+
+.martxt {
+    width: auto;
+    font-size: 100%;
+    color: #e68d4c;
+    margin: 7% auto 2% auto;
+}
+
+/* Button */
+
+.btn:link,
+.btn:visited {
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #d98243;
+    color: #fff;
+    margin: 50px 35% 5% 35%;
+    width: 30%;
+    text-align: center;
+    transition: background 0.5s, transform 0.4s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #b26b3a;
+    transform: scale(1.10);
+}
+
+.log {
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #d98243;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+/* ========================== */
+
+
+/* ======== ABOUT US SECTION ======== */
+
+.about-us-section {
+    padding-top: 20px;
+    background-color: #f0f0f0;
+}
+
+.about-us-section p {
+    padding-bottom: 60px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* ========================== */
+
+
+/* ======== FEATURES SECTION ======== */
+
+.features-section h2 {
+    margin-top: 20px;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.feature {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature:last-child {
+    margin-bottom: 80px;
+}
+
+.feature-no {
+    display: inline-block;
+    font-size: 110%;
+    width: 25px;
+    height: 25px;
+    color: #d98243;
+    border: 3px solid #d98243;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.feature-txt {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 45px;
+}
+
+/* ========================== */
+
+
+/* ======== CONTACT US FORM ======== */
+
+.contact-section {
+    padding-top: 20px;
+    background-color: #f0f0f0;
+    padding-bottom: 70px;
+}
+
+.contact-section h2 {
+    margin-bottom: 60px;
+}
+
+.contact-section form {
+    vertical-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.contact-info {
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+.label {
+    display: inline-block;
+    font-size: 90%;
+    color: #555;
+    width: 30%;
+    height: 30px;
+    margin-left: 20%;
+}
+
+.input {
+    color: #555;
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+}
+
+.inpt {
+    width: 60%;
+    height: 30px;
+    color: #555;
+    font-family: 'Oxygen';
+    font-size: 70%;
+    padding: 5px;
+}
+
+.txtarea {
+    display: inline-block;
+    width: 40%;
+}
+
+textarea {
+    color: #555;
+    font-family: 'Oxygen';
+    font-size: 70%;
+    width: 60%;
+    height: 100px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 40px;
+    font-family: 'Oxygen';
+    font-size: 80%;
+    padding: 7px;
+    border-radius: 50px;
+    outline-style: none;
+    border: 2px solid #d98243;
+    color: #d98243;
+    font-weight: 700;
+    margin-left: 40%;
+    transition: transform 0.5s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.2)
+}
+
+/* ========================== */
+
+
+/* ======== FOOTER ======== */
+
+footer {
+    background-color: #535353;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 30px;
+    height: auto;
+}
+
+.footer-line {
+    display: inline-block;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+.social {
+    display: inline-block;
+    width: 260px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+
+.social-icon-link {
+    display: inline-block;
+    color: #d0d0d0;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 0;
+}
+
+#fb {
+    margin-right: 100px;
+    transition: color 0.5s;
+}
+
+#fb:hover,
+#fb:active {
+    color: #3b5998;
+}
+
+#tt {
+    transition: color 0.5s;
+}
+
+#tt:hover,
+#tt:active {
+    color: #00acee;
+}
+
+#ig {
+    margin-left: 100px;
+    transition: color 0.5s;
+}
+
+#ig:hover,
+#ig:active {
+    color: #3f729b;
+}
+
+/* ========================== */

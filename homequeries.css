@@ -1,0 +1,68 @@
+@media only screen and (max-height: 768px) {
+    header {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .martxt {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 564px) {
+    .logo-nav {
+        display: block;
+        height: 200px;
+        width: 40%;
+        margin-left: 30%;
+    }
+    nav ul {
+        float: center;
+    }
+    nav ul li {
+        display: block;
+        margin-right: auto;
+        float: center;
+    }
+    .logoimg {
+        position: relative;
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .label {
+        margin-left: 5%;
+    }
+    .inpt {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .social {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .social-icon-link {
+        float: none;
+    }
+    #fb {
+        margin: 0;
+    }
+    #ig {
+        margin: 0;
+    }
+    .social ul {
+        height: auto;
+    }
+    .footer-line {
+        margin-top: 70px;
+    }
+}

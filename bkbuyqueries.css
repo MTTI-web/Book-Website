@@ -1,0 +1,28 @@
+@media only screen and (max-width: 660px) {
+    .inptbox {
+        font-family: 'Oxygen';
+        font-weight: 100;
+        width: 100%;
+        padding: 7px;
+        font-size: 80%;
+        border-radius: 10%;
+        background-color: #fff4ed;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .inptbox {
+        margin-left: 0;
+    }
+    .input, .retrn {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+    #logo {
+        width: 100%;
+    }
+}
