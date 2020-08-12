@@ -3,6 +3,7 @@ html {
     font-weight: 400;
     overflow-x: hidden;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 body {
